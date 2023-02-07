@@ -1,0 +1,40 @@
+/* css comment */
+
+/*
+    styling strength
+    1- !important
+    2- style attribute
+    3- id #
+    4- class .
+    5- tagName 
+    6- attributes
+*/
+
+#image1,
+#image2,
+#image3,
+.the-image,
+img {
+  width: 400px;
+}
+
+.the-image {
+  width: 200px;
+  width: 250px;
+  height: 400px;
+}
+
+.the-image {
+  width: 300px !important;
+}
+
+.the-image {
+  /* border: 10px solid yellow; */
+  padding: 16px;
+  border: 10px solid seagreen;
+}
+
+img {
+  height: 500px !important;
+  width: 20px;
+}
