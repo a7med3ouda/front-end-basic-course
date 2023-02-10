@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: blue;
+}
+
+.my-div {
+    display: block;
+    width: 400px;
+    height:400px;
+    background-color: #eee;
+    margin: 50px;
+    padding: 50px;
+    border: 5px solid red;
+    /* border-radius: 50%; */
+}
+
+/* 
+.my-div > div {
+    background-color: green;
+} */
+
+/* .my-div > div > div {
+    background-color: green;
+} */
+
+
+.my-div > div {
+    display: inline-block;
+    width: 49%;
+    height: 50%;
+    background-color: green;
+}
+
+
+/* 
+.my-div-2 {
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    background-color: wheat;
+    /* margin: 50px; 
+    padding: 50px;
+} */
+
+.btn{
+    background-color: white;
+    border: 2px solid green;
+    padding: 12px 16px ;
+    border-radius: 1000px;
+    /* border-radius: 50%; */
+}

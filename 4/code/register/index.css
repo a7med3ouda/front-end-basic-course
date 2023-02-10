@@ -1,0 +1,43 @@
+html {
+    direction: rtl;
+}
+/* 
+* {
+    margin: 0;
+} */
+
+.register{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ahmed{
+    background-color: aqua;
+}
+
+.register__card{
+ width: 432px;
+ box-shadow: 0 0 20px 5px #00000020;
+ border-radius: 10px;
+ background-color: white;
+}
+
+.title{
+    padding: 16px ;
+
+}
+
+.title__main {
+    display: inline;
+}
+
+.close__btn{
+
+}
+
+.sub__title{
+    color: #606770;
+}
