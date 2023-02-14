@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    /* display: inline-block; */
+    width: 100%;
+    background-color: #eee;
+}
+
+.header > .nav {
+    display: inline;
+    position: relative;
+}
+
+.header > .nav:hover > .list {
+    display: block;
+}
+
+.header> nav > .burger-menu-btn {
+    
+}
+
+.header > .nav > .list {
+    position: absolute;
+    background-color: gold;
+    display: none;
+}
+
+.header > .nav > .list > .list-item {
+    /* display: inline-block; */
+}
+
+.header > .nav > .list > .list-item > a {
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.header > .nav > .list > .list-item > a:hover {
+    background-color: coral;
+    /* font-size: 30px; */
+}
+
+.input-field{
+    width: 300px;
+    padding: 16px;
+}
+
+.input-field > input[type="text"] {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #eee;
+    font-size: 16px;
+    padding-inline: 8px;
+    /* text-align: center; */
+}
+
+.input-field > input:hover {
+    background-color: #ddd;
+    outline: 2px solid black;
+}
+
+.input-field > input:focus {
+    outline: 2px solid blue;
+    color: blue;
+    background-color: #ccc;
+}
+
+div.field.ahmed {
+    background-color: aqua;
+}
