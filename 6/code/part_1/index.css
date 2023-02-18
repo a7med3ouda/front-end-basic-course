@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 2000px; */
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: brown;
+  box-shadow: 0 0 10px 3px #00000040;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.parent-1 {
+  /* width: ; */
+  /* height: 400px; */
+  background-color: rgb(182, 207, 207);
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.child {
+  /* display: inline-block; */
+  /* padding: 1rem; */
+  width: 100px;
+  height: 100px;
+  color: white;
+  /* flex-shrink: 5; */
+  /* flex-grow: 1; */
+  /* width: 50%; */
+}
+
+.child-1 {
+  background-color: red;
+  order: 4;
+}
+.child-2 {
+  /* flex-grow: 1; */
+  background-color: green;
+  order: -1;
+  /* align-self: center; */
+  /* flex-shrink: 1; */
+}
+.child-3 {
+  background-color: rgb(129, 129, 18);
+  order: 1;
+}
+.child-4 {
+  background-color: black;
+  /* justify-self: flex-end; */
+  align-self: flex-end;
+}

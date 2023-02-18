@@ -1,0 +1,7 @@
+display float
+https://flexboxfroggy.com/
+https://mastery.games/flexboxzombies/   <================
+https://mastery.games/post/flexboxzombies2/
+/* display: grid */
+/* css animation */
+css variables  <======
