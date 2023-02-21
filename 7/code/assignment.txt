@@ -1,0 +1,11 @@
+
+when click on any operator .. store it's value into variable => calcOperator
+    show it in console
+when click on any number button and the calcOperator is not empty 
+        store the new number into anotherNumberVariable
+
+when click on AC button make function reset the all variables
+    show it in console
+
+when click on = make the calc operation of the twe variables
+    according to the calcOperator variable

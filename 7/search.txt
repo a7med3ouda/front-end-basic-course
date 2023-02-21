@@ -1,0 +1,1 @@
+compare between let & var in javascript
