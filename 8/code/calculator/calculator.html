@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        width: 60px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div>
+        <textarea name="" id="" cols="26" rows="5"></textarea>
+      </div>
+      <br />
+      <div>
+        <button>(</button>
+        <button>)</button>
+        <button>%</button>
+        <button onclick="handleClearAll()">AC</button>
+      </div>
+      <br />
+      <div>
+        <button onclick="handleClickNumber('7')">7</button>
+        <button onclick="handleClickNumber('8')">8</button>
+        <button onclick="handleClickNumber('9')">9</button>
+        <button onclick="handleMathOperator('/')">÷</button>
+      </div>
+      <br />
+      <div>
+        <button onclick="handleClickNumber('4')">4</button>
+        <button onclick="handleClickNumber('5')">5</button>
+        <button onclick="handleClickNumber('6')">6</button>
+        <button onclick="handleMathOperator('*')">×</button>
+      </div>
+      <br />
+      <div>
+        <button onclick="handleClickNumber('1')">1</button>
+        <button onclick="handleClickNumber('2')">2</button>
+        <button onclick="handleClickNumber('3')">3</button>
+        <button onclick="handleMathOperator('-')">-</button>
+      </div>
+      <br />
+      <div>
+        <button onclick="handleClickNumber('0')">0</button>
+        <button onclick="handleFractions()">.</button>
+        <button onclick="handleResult()">=</button>
+        <button onclick="handleMathOperator('+')">+</button>
+      </div>
+    </div>
+
+    <script src="./calc.js"></script>
+  </body>
+</html>
