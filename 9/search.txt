@@ -1,0 +1,8 @@
+compare between let & var in javascript
+
+compare variables types
+
+read about (arrays, objects) variable types
+
+
+read about (document, window) objects
