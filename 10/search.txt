@@ -1,0 +1,11 @@
+javascript arrays functions
+
+save in memory by value vs save in memory by reference
+
+array.map()
+array.filter()
+array.reduce()
+array.forEach()
+array.find()
+array.some()
+forof
