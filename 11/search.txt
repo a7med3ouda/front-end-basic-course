@@ -1,0 +1,13 @@
+3- javascript document object model (dom)
+    w3schools
+
+4- javascript step by step w3schools
+
+javascript for, while, for of => array, for in => object
+
+array.map()
+array.filter()
+array.reduce()
+array.forEach()
+array.find()
+array.some()
