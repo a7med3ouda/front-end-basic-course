@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="./assets/style.css" /> -->
+    <!-- <link rel="stylesheet" href="../register.css" /> -->
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="register__container">
+      <div class="register">
+        <img
+          class="logo"
+          src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+          alt="Facebook"
+        />
+        <div class="card">
+          <div class="title">
+            <h1 class="title__main">انشاء حساب جديد</h1>
+            <p class="sub__title">عملية سريعة وسهلة</p>
+          </div>
+          <hr />
+          <form class="register__form" onsubmit="handleSubmit(event)">
+            <div class="input__area name__field">
+              <span class="first__name__field">
+                <input id="first-name" type="text" placeholder="الاسم الاول" />
+                <span id="first-name-error" class="text__error" hidden
+                  >الاسم الاول مطلوب</span
+                >
+              </span>
+              <span class="last__name__field">
+                <input id="last-name" type="text" placeholder="الاسم العائلة" />
+              </span>
+            </div>
+            <div class="input__area">
+              <input
+                id="email"
+                type="text"
+                placeholder="رقم الهاتف المحمول او البريد الالكتروني"
+              />
+            </div>
+            <div class="input__area">
+              <input
+                id="password"
+                type="password"
+                placeholder="كلمة السر الجديدة"
+              />
+            </div>
+            <div class="input__area">
+              <label>تاريخ الميلاد</label>
+              <div class="date__of__birth__input">
+                <select id="day"></select>
+                <select
+                  id="month"
+                  onchange="handleCountDaysInFebruary()"
+                ></select>
+                <select
+                  id="year"
+                  onchange="handleCountDaysInFebruary()"
+                ></select>
+              </div>
+            </div>
+            <div class="input__area">
+              <label>الجنس</label>
+              <div class="gender__input">
+                <span class="gender__option">
+                  <label for="female">انثى</label>
+                  <input
+                    type="radio"
+                    name="gender"
+                    id="female"
+                    value="female"
+                  />
+                </span>
+                <span class="gender__option">
+                  <label for="male">ذكر</label>
+                  <input type="radio" name="gender" id="male" value="male" />
+                </span>
+              </div>
+            </div>
+            <div class="rules">
+              ربما قام الأشخاص الذين يستخدمون خدمتنا بتحميل معلومات الاتصال
+              الخاصة بك إلى فيسبوك. ‏تعرف على المزيد‏ بالنقر على "‏إنشاء حساب في
+              فيسبوك‏"، فإنك توافق على ‏الشروط‏ و‏سياسة الخصوصية‏ و‏سياسة ملفات
+              تعريف الارتباط‏. ويمكن أن تتلقى إشعارات عبر رسائل SMS من فيسبوك،
+              ويمكنك إلغاء تلقي هذه الإشعارات في أي وقت.
+            </div>
+            <div class="submit__btn">
+              <button type="submit">انشاء حساب في فيسبوك</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
